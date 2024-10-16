@@ -4,7 +4,7 @@ Hello everyone, I created a Dynamic profile card built using Angular and Tailwin
 
 # Versions:
 
-Node : 20.18.0
+Node : 20.18.0 <br />
 Angular : 18.2.7
 
 # Note: 
