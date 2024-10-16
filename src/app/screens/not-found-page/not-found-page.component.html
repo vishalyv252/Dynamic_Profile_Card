@@ -1,0 +1,27 @@
+<main class="flex justify-center items-center h-screen w-full overflow-x-hidden overflow-y-auto bg-Dark_cyan">
+  <div class="flex justify-center items-center h-auto w-auto">
+
+    <div class="block Medium_Mobile_Design_View:hidden Small_Mobile_Design_View:hidden">
+      <div class="flex flex-col justify-center items-center h-auto w-96 space-y-6">
+        <div class="flex justify-center items-center divide-x divide-solid text-Very_dark_desaturated_blue">
+          <div class="pr-6">
+            <p class="text-xl font-bold">{{status_code}}</p>
+          </div>
+          <div class="pl-6">
+            <p class="text-base font-normal">{{status_description}}</p>
+          </div>
+        </div>
+        <app-button [route_button]="button_name"></app-button>
+      </div>
+    </div>
+
+    <div class="hidden Medium_Mobile_Design_View:block Small_Mobile_Design_View:block">
+      <div class="flex flex-col justify-center items-center h-auto w-full text-Very_dark_desaturated_blue space-y-2">
+        <p class="text-xl font-bold">{{status_code}}</p>
+        <p class="text-base font-normal">{{status_description}}</p>
+        <app-button [route_button]="button_name"></app-button>
+      </div>
+    </div>
+
+  </div>
+</main>
